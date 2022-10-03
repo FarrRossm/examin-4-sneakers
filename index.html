@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">  
+  <title>Mirolim Ubaydullayev</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!-- Navbar star -->
+ <div class="container">
+    <nav class="nav1">
+    <div class="nav_logo">
+      <a href="#"><img src="./images/logo.svg" alt="rasm"></a>
+    </div>
+    <div class="nav_list">
+      <ul class="navbar ">
+        <li class="nav-item">
+          <a class="nav-link "  href="#">Collections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link "  href="#">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  href="#">About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  href="#">Contact</a>
+        </li>
+        
+      </ul>
+      <ul class="navbar_1">
+      <li class="nav-item">
+          <button class="nav-img  " id="open">
+            <a   href="#">
+              <img src="./images/icon-cart.svg" width="50px" height="50px" alt="rasm" >
+                  </a>
+          </button>
+               <!-- modal start -->
+          <div class="modal_container" id="modal_container">
+            <div class="modal">
+              <div class="head">
+                <h3>Card</h3>
+              </div>
+              <div>
+                <hr class="line">
+              </div>
+              <div class="modal-information">
+
+              </div>
+              <button id="close" class="mirolim">
+                <img src="./images/icon-close.svg" alt="art">
+              <div>
+              </button>
+              <button class="checkout" id="qaytish">
+                <h3>checkout</h3>
+              </button>
+              </div>
+            </div>
+          </div>
+        <!-- modal card end -->
+          
+      </li>
+
+        <li class="nav-akk">
+          <a class="nav-link account" href="#"><img src="./images/image-avatar.png" alt=""></a>
+      </li>
+      <li>
+        <input type="checkbox" class="night">
+      </li>
+    </ul>
+      
+    </div>
+    </nav>
+ </div>
+ <!-- navbar end -->
+  
+ <!-- main  -->
+  <div class="container">
+    <div class="section">
+      <div class="carousel">
+        <button class="prev left">
+          <img src="./images/arrow-left-circle.svg" alt="back">
+         </button>
+        <div class="carousel__track-container">
+          
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img src="./images/image-product-1.jpg" alt="1">
+            </li>
+            <li class="carousel__slide">
+              <img src="./images/image-product-2.jpg" alt="2">
+            </li>
+            <li class="carousel__slide">
+              <img src="./images/image-product-3.jpg" alt="3">
+            </li>
+            <li class="carousel__slide">
+              <img src="./images/image-product-4.jpg" alt="4">
+            </li>
+          </ul>
+          
+        </div>
+        <button class="next right">
+          <img src="./images/arrow-right-circle.svg" alt="next">
+         </button>
+       
+         
+         <div class="carousel_nav ">
+          <button class="button__indicator current-slide ">
+            <img src="./images/image-product-1-thumbnail.jpg" alt="11">
+          </button>
+          <button class="button__indicator ">
+            <img src="./images/image-product-2-thumbnail.jpg" alt="22">
+          </button>
+          <button class="button__indicator           ">
+            <img src="./images/image-product-3-thumbnail.jpg" alt="33">
+          </button>
+          <button class="button__indicator           ">
+            <img src="./images/image-product-4-thumbnail.jpg" alt="44">
+          </button>
+         </div>
+         
+      </div>
+
+      <!-- section start -->
+      <div class="section_2">
+        <ul class="ul">
+          <li class="ul_list">
+            <h3>
+                Sneaker Company
+            </h3>
+          </li>
+          <li class="ul_link">
+            <h1>
+              Fall Limited Edition <br> Sneakers
+            </h1>
+          </li>
+          <li class="ul_item">
+            <p>
+              These low-profile sneakers are your perfect casual wear <br> companion. Featuring a 
+    durable rubber outer sole, they’ll <br> withstand everything the weather can offer.
+            </p>
+          </li>
+          <li class="coin">
+            <p class="total-price">
+              <strong>$125.00</strong> 
+            </p>   
+            <span> 50% </span>
+            
+          </li>
+          <li class="coin_2">
+           <s > $250.00</s>
+          </li>
+        </ul>
+        <div class="s_list">
+          <div class="s_link min-btn ">
+            <button class="minus">
+              <img src="./images/icon-minus.svg" alt="">
+            </button>
+          </div>
+           
+          <div>
+            <span class="count-show">
+               0
+            </span>
+          </div>
+            
+            <div class="s_link plus-btn">
+              <button class="plus">
+                <img src="./images/icon-plus.svg" alt="">
+              </button>
+            </div>
+          <div class="s_list_item">
+            <button class="btn-n" id="ochish">
+              <div><img src="./images/icon-cart.svg" alt=""> </div>
+              <div>Add to cart</div>
+
+              
+            </button>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+ 
+
+  
+
+  
+
+ 
+
+  0
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="./plugin.js"></script>
+<script src="./script.js"></script>
+</html>
